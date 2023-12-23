@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; /*Обнуление стилей браузера*/
+    border: 0;
+
+}
+
+body {
+    font-weight: 500;
+    font-family: Montserrat, sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    margin: 26px 40px 28px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list {
+    display: flex;
+    gap: 94px;
+}
+
+.hero {
+    background-image: url("/hm_7_Misha/assets/img/hero.jpeg");
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.wrapper__header {
+    padding-top: 73px;
+    color: #F6F6F6;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    letter-spacing: 0.1px;
+}
+
+.wrapper__main-title {
+    margin: 17px 251.5px 27px ;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 137.931% */
+    letter-spacing: 0.2px;
+}
+
+.wrapper__footer {
+    margin-bottom: 54px;
+    color: #F6F6F6;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px; /* 158.333% */
+    letter-spacing: 0.2px;
+}
+
+.wrapper__button {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 413px 146px 521px;
+}
+.wrapper__button-left-orange {
+    width: 236px;
+    padding: 16px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    letter-spacing: 0.1px;
+    border-radius: 30px;
+    background: #FA4A0C;
+    box-shadow: 0 10px 30px 0 rgba(183, 50, 39, 0.20);
+    margin-right: 34px;
+}
+.wrapper__button-right {
+    width: 236px;
+    color: #fff;
+    padding: 16px ;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    background-color: rgba(0, 125, 215, 0);
+}
+
+
+.phone-red {
+    position: relative;
+    top: -285px;
+    right: -350px;
+    z-index: 7;
+}
+.phone {
+    height: 600px;
+}
+.phone-white {
+    position: relative;
+    top: -400px;
+    right: -110px;
+}
+
+.steps__title-header {
+    margin-left: 278px;
+    margin-right: 278px;
+    padding: 72px 242px 59px 217px;
+    border-top: #E4E4E4 3px solid;
+    font-family: Poppins , sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 36px;
+    opacity: 0.8;
+}
