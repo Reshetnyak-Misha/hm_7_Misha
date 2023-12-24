@@ -41,11 +41,7 @@ a {
     background-size: 100% auto;
 }
 
-.wrapper {
-    text-align: center;
-}
-
-.wrapper__header {
+.hero__wrapper-header {
     padding-top: 73px;
     color: #F6F6F6;
     text-align: center;
@@ -56,7 +52,7 @@ a {
     letter-spacing: 0.1px;
 }
 
-.wrapper__main-title {
+.hero__wrapper-main-title {
     margin: 17px 251.5px 27px ;
     color: #FFF;
     text-align: center;
@@ -68,7 +64,7 @@ a {
     letter-spacing: 0.2px;
 }
 
-.wrapper__footer {
+.hero__wrapper-footer {
     margin-bottom: 54px;
     color: #F6F6F6;
     text-align: center;
@@ -79,13 +75,13 @@ a {
     letter-spacing: 0.2px;
 }
 
-.wrapper__button {
+.hero__wrapper-button {
     display: inline-flex;
     flex-direction: row;
     align-items: center;
     padding: 0 413px 146px 521px;
 }
-.wrapper__button-left-orange {
+.hero__wrapper-button-left-orange {
     width: 236px;
     padding: 16px;
     color: #FFF;
@@ -99,7 +95,7 @@ a {
     box-shadow: 0 10px 30px 0 rgba(183, 50, 39, 0.20);
     margin-right: 34px;
 }
-.wrapper__button-right {
+.hero__wrapper-button-right {
     width: 236px;
     color: #fff;
     padding: 16px ;
