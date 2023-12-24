@@ -11,10 +11,6 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
-.roboto {
-    font-family: 'Roboto', sans-serif;
-}
-
 ul {
     list-style: none;
     padding: 0;
@@ -41,7 +37,8 @@ a {
 }
 
 .hero {
-    background-image: url("/hm_7_Misha/assets/img/hero.jpeg");
+    background: url("/hm_7_Misha/assets/img/hero.jpeg")  no-repeat ;
+    background-size: 100% auto;
 }
 
 .wrapper {
@@ -142,4 +139,214 @@ a {
     font-weight: 600;
     line-height: 36px;
     opacity: 0.8;
+}
+
+.mobile-login {
+    display: flex;
+    align-items: center;
+}
+
+.mobile-login__screen {
+    margin: 0 0 0 40px;
+}
+
+.mobile-login__wrapper {
+    margin: 0 161px 0 0 ;
+}
+
+.mobile-login__header {
+    color: #FA4A0C;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+}
+
+.mobile-login__main {
+    padding: 17px 0 27px 0;
+    color: #252B42;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.mobile-login__footer {
+    color: #737373;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+}
+
+.mobile-food {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.mobile-food__wrapper {
+    margin: 0 40px 0 320px;
+}
+
+.mobile-food__header {
+    color: #FA4A0C;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+}
+
+.mobile-food__main {
+    padding: 17px 0 27px 0;
+    color: #252B42;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.mobile-food__footer {
+    color: #737373;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+}
+
+.mobile-payment {
+    display: flex;
+    align-items: center;
+}
+
+.mobile-payment__screen {
+    margin: 0 0 0 40px;
+}
+
+.mobile-payment__wrapper {
+    margin: 0 191px 0 0 ;
+}
+
+.mobile-payment__header {
+    color: #FA4A0C;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+}
+
+.mobile-payment__main {
+    color: #252B42;
+    padding: 17px 0 27px 0;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.mobile-payment__footer {
+    color: #737373;
+    margin: 0 90px 0 0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+}
+
+.download-background {
+    background: url("/hm_7_Misha/assets/img/rack-background.png")  no-repeat ;
+    background-size: 100% auto;
+}
+
+.download {
+    text-align: center;
+}
+
+.download__title {
+    padding: 145px 0 0 0;
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.download__content {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+}
+
+.download-button {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 60px 413px 131px 554px;
+    gap: 16px
+}
+
+.download-button_left-orange {
+    padding: 18px 31px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #FA4A0C;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+.download-button_right {
+    padding: 16px 45px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 175% */
+    letter-spacing: 0.2px;
+    background-color: rgba(0, 125, 215, 0);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0 50px 0;
+}
+
+.photo-log {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-content {
+    color: #5C5C5C;
+    font-family: Roboto , sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 150% */
+    letter-spacing: 0.1px;
 }
